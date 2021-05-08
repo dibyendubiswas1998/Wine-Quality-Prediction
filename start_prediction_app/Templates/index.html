@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static  %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'CSS/indexsx.css' %}">
+</head>
+<body>
+    <div class="main_div">
+        <div class="pics">
+            <img src="{% static 'Images/img1.png' %}" alt="img1" />
+        </div>
+        <div class="forms_data">
+            <h1>White Wine Quality Prediction</h1>
+            <form method="POST">
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class='frms'>
+                          {{field}}
+<!--                          <span>{{field.errors | striptags }}</span>-->
+                    </div>
+                {% endfor %}
+                <input type='submit' value='Predict The Quality' class='btns'/>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
