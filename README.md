@@ -53,4 +53,15 @@
     2.  Then Predict the outcome.
 
 
+![Capture1](https://user-images.githubusercontent.com/67157274/117579210-96596980-b10f-11eb-8933-15216677a02c.PNG)
+
+
+![Capture2](https://user-images.githubusercontent.com/67157274/117579221-9e190e00-b10f-11eb-9b80-460e5c6f9621.PNG)
+
+
+![Capture3](https://user-images.githubusercontent.com/67157274/117579233-a5401c00-b10f-11eb-89ac-bacc2323f57f.PNG)
+
+
+
+## ----------Thank You------------
 
